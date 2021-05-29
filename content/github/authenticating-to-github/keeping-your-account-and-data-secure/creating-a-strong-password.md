@@ -13,8 +13,7 @@ topics:
   - Access management
 ---
 You must choose or generate a password for your {% data variables.product.product_name %} account that is at least:
-- {% if enterpriseServerVersions contains currentVersion %}Seven{% else %}Eight{% endif %} characters long, if it includes a number and a lowercase letter, or
-- 15 characters long with any combination of characters
+- {% if enterpriseServerVersions contains currentVersion %}Seven{% else %}Eight{% endif %} characters long, if it includes a number and a lowercase letter, or 15 characters long with any combination of characters
 
 To keep your account secure, we recommend you follow these best practices:
 - Use a password manager, such as [LastPass](https://lastpass.com/) or [1Password](https://1password.com/), to generate a password of at least 15 characters.
